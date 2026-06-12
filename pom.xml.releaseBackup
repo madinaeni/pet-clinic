@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nightshift</groupId>
@@ -15,25 +16,25 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>4.0.6</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<packaging>pom</packaging>
-	<name />
-	<description />
-	<url />
+	<name/>
+	<description/>
+	<url/>
 	<licenses>
-		<license />
+		<license/>
 	</licenses>
 	<developers>
-		<developer />
+		<developer/>
 	</developers>
 
 	<scm>
 		<connection>scm:git:https://github.com/madinaeni/pet-clinic.git</connection>
 		<developerConnection>scm:git:https://github.com/madinaeni/pet-clinic.git</developerConnection>
 		<url>https://github.com/madinaeni/pet-clinic</url>
-		<tag>pet-clinic-0.0.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<properties>
 		<java.version>25</java.version>
