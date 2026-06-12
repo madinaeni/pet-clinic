@@ -31,9 +31,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:https://github.com/your-org/pet-clinic.git</connection>
-		<developerConnection>scm:git:https://github.com/your-org/pet-clinic.git</developerConnection>
-		<url>https://github.com/your-org/pet-clinic</url>
+		<connection>scm:git:https://github.com/madinaeni/pet-clinic.git</connection>
+		<developerConnection>scm:git:https://github.com/madinaeni/pet-clinic.git</developerConnection>
+		<url>https://github.com/madinaeni/pet-clinic</url>
 		<tag>HEAD</tag>
 	</scm>
 	<properties>
