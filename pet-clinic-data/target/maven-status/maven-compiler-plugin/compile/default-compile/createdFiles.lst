@@ -1,0 +1,14 @@
+com/nightshift/pet_clinic/model/PetType.class
+com/nightshift/pet_clinic/model/Pet$PetBuilder.class
+com/nightshift/pet_clinic/model/Vet$VetBuilder.class
+com/nightshift/pet_clinic/model/Speciality.class
+com/nightshift/pet_clinic/model/Vet.class
+com/nightshift/pet_clinic/model/Owner.class
+com/nightshift/pet_clinic/model/BaseEntity.class
+com/nightshift/pet_clinic/model/Visit.class
+com/nightshift/pet_clinic/model/Visit$VisitBuilder.class
+com/nightshift/pet_clinic/model/PetType$PetTypeBuilder.class
+com/nightshift/pet_clinic/model/Person.class
+com/nightshift/pet_clinic/model/Pet.class
+com/nightshift/pet_clinic/model/Owner$OwnerBuilder.class
+com/nightshift/pet_clinic/model/Speciality$SpecialityBuilder.class
