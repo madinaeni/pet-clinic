@@ -6,3 +6,17 @@
 /home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/model/Speciality.java
 /home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/model/Vet.java
 /home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/model/Visit.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/CrudService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/OwnerService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/PetService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/PetTypeService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/SpecialtyService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/VetService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/VisitService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/AbstractMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/OwnerMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/PetMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/PetTypeMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/SpecialityMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/VetMapService.java
+/home/bogdan/projects/pet-clinic/pet-clinic-data/src/main/java/com/nightshift/pet_clinic/services/map/VisitMapService.java

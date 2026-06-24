@@ -12,19 +12,21 @@ import java.time.LocalDate;
 public class DataLoader implements CommandLineRunner {
 
     private final PetTypeService petTypeService;
-    private final PetService petService;
     private final OwnerService ownerService;
     private final SpecialtyService specialtyService;
     private final VetService vetService;
     private final VisitService visitService;
 
-    public DataLoader() {
-        petTypeService = new PetTypeMapService();
-        petService = new PetMapService();
-        ownerService = new OwnerMapService(petTypeService, petService);
-        specialtyService = new SpecialityMapService();
-        vetService = new VetMapService(specialtyService);
-        visitService = new VisitMapService();
+    public DataLoader(PetTypeService petTypeService,
+                      OwnerService ownerService,
+                      VetService vetService,
+                      SpecialtyService specialtyService,
+                      VisitService visitService) {
+        this.petTypeService = petTypeService;
+        this.ownerService = ownerService;
+        this.vetService = vetService;
+        this.specialtyService = specialtyService;
+        this.visitService = visitService;
     }
 
     @Override
