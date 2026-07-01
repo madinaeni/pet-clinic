@@ -18,7 +18,7 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@MappedSuperclass
+@MappedSuperclass // Object is not to be created into the DB
 public class BaseEntity implements Serializable {
 
     @Id
