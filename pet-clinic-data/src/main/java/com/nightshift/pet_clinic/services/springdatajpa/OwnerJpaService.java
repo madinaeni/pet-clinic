@@ -22,12 +22,17 @@ public class OwnerJpaService implements OwnerService {
 
     @Override
     public Owner findByLastName(String lastName) {
-        return ownerRepository.findByLastName().orElse(null);
+        return this.findAll()
+                .stream()
+                .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
     public List<Owner> findAllByLastNameLike(String lastName) {
-        return ownerRepository.findAllByLastNameLike();
+        //todo - impl
+        return null;
     }
 
     @Override

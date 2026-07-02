@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
 
-    Optional<Owner> findByLastName();
+    Optional<Owner> findByLastName(String lastName);
 
-    List<Owner> findAllByLastNameLike();
+    List<Owner> findAllByLastNameLike(String lastName);
 }
