@@ -19,7 +19,7 @@
 	</parent>
 
 	<packaging>pom</packaging>
-	<name />
+	<name>pet-clinic</name>
 	<description />
 	<url />
 	<licenses>
